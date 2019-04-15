@@ -13,5 +13,8 @@ module.exports = {
                 {loader: 'css-loader'}
             ]
         }]
+    },
+    devServer: {
+        publicPath: '/aaa/bbb'
     }
 }
